@@ -1,0 +1,94 @@
+  body,html {
+  background-color: black;
+  animation: fadeIn 2s forwards;
+    overflow-x:hidden;
+}
+
+@keyframes fadeIn{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+#search {
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  font-family: calibri;
+  font-size: 15px;
+}
+
+#random{
+  transform: translateY(2px);
+  font-size: 20px;
+}
+#random:active{
+  transform: translateY(calc(2px + 5%))!important;  
+}
+
+a.ghost {
+  margin-left: .52%;
+  margin-right: .52%;
+  font-weight: bold;
+  font-family: calibri;
+  border: solid 2px white;
+  color: white;
+  border-radius: 5px;
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  padding: 1px;
+  margin-bottom: 1%;
+  height: automatic;
+  -webkit- transition: color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+a.ghost:hover {
+  background-color: white;
+  font-color: black;
+  color: black;
+  -webkit- transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  transition: color 0.3s ease-out, background-color 0.3s ease-in;}
+a.ghost:active{
+  transform: translateY(5%)!important;
+}
+p {
+  margin: 0 auto;
+  padding: 1%;
+  animation: fadeIn 2s forwards;
+  margin-bottom: 1%;
+  float: center;
+  min-height: 50px;
+  height;
+  display: inline-block;
+    width: 80%;
+    font-weight: bold;
+    font-family: calibri;
+    border: solid 2px white;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    -webkit- transition:  color 0.3s ease-out, background-color 0.3s ease-out;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out;
+  }
+  p:hover {
+    background-color: white;
+    color: black;
+    -webkit- transition: color 0.3s ease-out, background-color 0.3s ease-in;
+    transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  }
+p:active{
+  transform: translateY(3%);
+}
+  input {
+    display: inline-block;
+  }
+
+#textWell{
+  padding-bottom: 10px;
+}
